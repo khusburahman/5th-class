@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap class2</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/bootstrap-icons.css">
+
+  <!-- slick slider  -->
+ <link rel="stylesheet" href="assets/slick/slick.css">
+ <link rel="stylesheet" href="assets/slick/slick-theme.css">
+
+ <!--Aos-->
+  <link rel="stylesheet" href="assets/css/aos.css">
+
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!--navbar start-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand text-uppercase fw-bold text-white" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <!--
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  -->
+        </ul>
+
+        </li>
+
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <a class="nav-link " href="#"><span><i class="bi bi-box-arrow-in-right"></i></span>cart</a></button>
+           
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signin.html"><span><i class="bi bi-box-arrow-in-right"></i></span>Signin </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registration</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!--navbar end-->
+  <!--slider start-->
+  <div class="hero-slider">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/slider/slider1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/slider/slider2.avif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/slider/slider3.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  </div>
+  <!--slider end-->
+
+  <div class="content">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <div class="search-area">
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div class="list-group pt-4">
+              <a href="#" class="list-group-item  active text-uppercase">
+                All Catagory
+              </a>
+              <a href="#" class="list-group-item">Fresh Fish</a>
+              <a href="#" class="list-group-item "> Fresh Food</a>
+              <a href="#" class="list-group-item "> Soft Drink</a>
+            
+            </div>
+
+            <div class="list-group pt-4">
+              <a href="#" class="list-group-item list-group-item-action active text-uppercase" aria-current="true">
+                Prize
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">100tk-200tk</a>
+              <a href="#" class="list-group-item list-group-item-action">100tk-200tk</a>
+              <a href="#" class="list-group-item list-group-item-action">100tk-200tk</a>
+              <a href="#" class="list-group-item list-group-item-action">100tk-200tk</a>
+              <a href="#" class="list-group-item list-group-item-action">100tk-200tk</a>
+              <a href="#" class="list-group-item list-group-item-action">100tk-200tk</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-9 col sm-12">
+          <div class="product-card-area">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card" data-aos="flip-left" data-aos-duration="1500">
+                  <img src="assets/images/images/Orange.jpg" class="card-img-top" alt="fresh Orange">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">Orange Fruits</a> </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2">
+                      <span class="fw-bold">Price:৳100</span>
+                      <del>৳110kg</del>
+                    </p>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-bag-check"></i> Add To Card</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card"data-aos="flip-left" data-aos-duration="1500" >
+                  <img src="assets/images/images/images (2).jpeg" class="card-img-top" alt="fresh Mango">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">Mango Fruits</a> </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2">
+                      <span class="fw-bold">Price:৳100</span>
+                      <del>৳110kg</del>
+                    </p>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-bag-check"></i> Add To Card</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card"data-aos="flip-left" data-aos-duration="1500" >
+                  <img src="assets/images/images/images (3).jpeg" class="card-img-top" alt="fresh apple">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">Apple Fruits</a> </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2">
+                      <span class="fw-bold">Price:৳100</span>
+                      <del>৳110kg</del>
+                    </p>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-bag-check"></i> Add To Card</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" data-aos="flip-left" data-aos-duration="1500">
+                  <img src="assets/images/images/Lichi.jpeg" class="card-img-top" alt="fresh Lichi">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#"> Fruits Lichi</a> </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2">
+                      <span class="fw-bold">Price:৳100</span>
+                      <del>৳110kg</del>
+                    </p>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-bag-check"></i> Add To Card</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" data-aos="flip-left" data-aos-duration="1500">
+                  <img src="assets/images/images/Orange.jpg" class="card-img-top" alt="fresh Orange">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">Orange Fruits</a> </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2">
+                      <span class="fw-bold">Price:৳100</span>
+                      <del>৳110kg</del>
+                    </p>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-bag-check"></i> Add To Card</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card"data-aos="flip-left" data-aos-duration="1500" >
+                  <img src="assets/images/images/images (2).jpeg" class="card-img-top" alt="fresh mango">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">Mango Fruits</a> </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2">
+                      <span class="fw-bold">Price:৳100</span>
+                      <del>৳110kg</del>
+                    </p>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-bag-check"></i> Add To Card</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" data-aos="flip-left" data-aos-duration="1500">
+                  <img src="assets/images/images/images (3).jpeg" class="card-img-top" alt="fresh apple">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">Apple Fruits</a> </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2">
+                      <span class="fw-bold">Price:৳100</span>
+                      <del>৳110kg</del>
+                    </p>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-bag-check"></i> Add To Card</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" data-aos="flip-left" data-aos-duration="1500" >
+                  <img src="assets/images/images/Lichi.jpeg" class="card-img-top" alt="fresh Lichi">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="#">Lichi Fruits</a> </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2">
+                      <span class="fw-bold">Price:৳100</span>
+                      <del>৳110kg</del>
+                    </p>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-bag-check"></i> Add To Card</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--pagination start-->
+            <div class="pagination-area text-center m-auto d-flex justify-content-center">
+              <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link ">Previous</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">1</a></li>
+                  <li class="page-item " aria-current="page">
+                    <a class="page-link active" href="#">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+
+          <!--pagination end-->
+       
+        <!--restimonial start-->
+
+        <div class="testimonial-area pt-5 pb-5">
+          <div class="container">
+            <h2 class="text-center fw-bold pb-4">Testimonial</h2>
+            <div class="row responsive">
+              <div class="col">
+                <div class="card-item">
+                  <div class="d-flex gap-4 border-bottom pb-3">
+                    <div class="photo">
+                      <img src="assets/images/testimonial/khusbu.jpg" alt="">
+                    </div>
+                    <div>
+                      <h3>Khusbu Rahman</h3>
+                      <span>Web Designer</span>
+                    </div>
+                  </div>
+                  <div class="card-text">
+                    <p>
+                      <span><i class="bi bi-quote"></i></span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate repellat itaque deleniti impedit commodi ducimus quisquam nihil voluptas maiores culpa!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card-item">
+                  <div class="d-flex gap-4 border-bottom pb-3">
+                    <div class="photo">
+                      <img src="assets/images/testimonial/khusbu.jpg" alt="">
+                    </div>
+                    <div>
+                      <h3>Khusbu Rahman</h3>
+                      <span>Web Designer</span>
+                    </div>
+                  </div>
+                  <div class="card-text">
+                    <p>
+                      <span><i class="bi bi-quote"></i></span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate repellat itaque deleniti impedit commodi ducimus quisquam nihil voluptas maiores culpa!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card-item">
+                  <div class="d-flex gap-4 border-bottom pb-3">
+                    <div class="photo">
+                      <img src="assets/images/testimonial/khusbu.jpg" alt="">
+                    </div>
+                    <div>
+                      <h3>Khusbu Rahman</h3>
+                      <span>Web Designer</span>
+                    </div>
+                  </div>
+                  <div class="card-text">
+                    <p>
+                      <span><i class="bi bi-quote"></i></span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate repellat itaque deleniti impedit commodi ducimus quisquam nihil voluptas maiores culpa!</p>
+                  </div>
+                </div>
+              </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonial End -->
+       
+ 
+ 
+        
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Footer Start -->
+ <footer class="main-footer pt-5 pb-5">
+  <div class="container">
+   <div class="row">
+     <div class="col-md-3">
+       <h4>Address</h4>
+       <ul>
+         <li>
+           <i class="bi bi-house"></i> Dinajpur,Rajshahi,Bangladesh
+         </li>
+         <li>
+           <i class="bi bi-telephone"></i> +765434567
+         </li>
+       </ul>
+     </div>
+     <div class="col-md-3">
+       <h4>Browse Link</h4>
+       <ul>
+         <li><a href="#">About us</a></li>
+         <li><a href="#">Contact us</a></li>
+         <li><a href="#">About us</a></li>
+         <li><a href="#">About us</a></li>
+         <li><a href="#">About us</a></li>
+       </ul>
+     </div>
+     <div class="col-md-3">
+       <h4>Browse Link</h4>
+       <ul>
+         <li><a href="#">About us</a></li>
+         <li><a href="#">Contact us</a></li>
+         <li><a href="#">About us</a></li>
+         <li><a href="#">About us</a></li>
+         <li><a href="#">About us</a></li>
+       </ul>
+     </div>
+     <div class="col-md-3">
+       <h4>Browse Link</h4>
+       <ul>
+         <li><a href="#">About us</a></li>
+         <li><a href="#">Contact us</a></li>
+         <li><a href="#">About us</a></li>
+         <li><a href="#">About us</a></li>
+         <li><a href="#">About us</a></li>
+       </ul>
+     </div>
+     
+   </div>
+   
+   <div class="ex-footer text-center pt-4 mt-3 text-white border-top">
+     <p>Copyright &copy; All rights reserved <a href="#">Khusbu</a></p>
+   </div>
+ </div>
+ </footer>
+ <!-- Footer End -->
+
+ <!-- offcanvas start -->
+ <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Cart Product</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+  </div>
+</div>
+ <!-- offcanvas end -->
+
+    <!--Aos-->
+    <script src="assets/js/aos.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="assets/slick/slick.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    AOS.init();
+  </script
+  
+</body>
+
+</html>

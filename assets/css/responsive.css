@@ -1,0 +1,10 @@
+@media only screen and (max-width:768px){
+    .hero-slider .carousel-inner{
+        height: auto!important;
+    }
+}
+@media only screen and (max-width:480px){
+    .hero-slider .carousel-inner{
+        height: auto!important;
+    }
+}

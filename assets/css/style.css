@@ -1,0 +1,242 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#310368;
+    --secondary-color:#f87437;
+    --color-white:white;
+    --color-black:black;
+    --size-lg:2.125rem;
+    --size-md:1rem;
+    --size-sm:0.875rem;
+}
+/*navbar start*/
+.navbar{
+    background-color: var(--primary-color)!important;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: var(--color-white)!important;
+    font-size: var(--size-md);
+}
+
+/*navbar end*/
+/*slider start*/
+    .hero-slider .carousel-inner{
+        width: 100%;
+        height: 70vh;
+    }
+    .hero-slider .carousel-inner .carousel-item{
+        width: 100%;
+        height: 100%;
+    }
+    /*
+    .hero-slider .carousel-inner .carousel-item img{
+        width: 100%;
+        height: 100%;
+    }
+    */
+    .carousel-indicators button{
+        width: 15px!important;
+        height: 15px!important;
+        border-radius: 50%!important;
+
+    }
+    .carousel-indicators button.active{
+        background-color:var(--secondary-color);
+    }
+
+/*slider end*/
+/*sidenav start*/
+    .list-group .list-group-item.active{
+        background-color: var(--primary-color);
+        color: var(--color-white);
+    }
+    .list-group .list-group-item:hover{
+        background-color: var(--secondary-color);
+        color: var(--color-white);
+        transition: .6s ease-in-out;
+    }
+
+/*sidenav end*/
+/*card decoration*/
+    .product-card-area .card img{
+        width: 100%;
+        height: 170px;
+    }
+    .product-card-area .card .card-body .card-title a{
+        font-size:var(--size-md);
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+    .product-card-area .card:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transition: .6s ease;
+    }
+    .product-card-area .card{
+        margin-bottom: 15px;
+    }
+    .product-card-area .card .card-body .card-title a:hover{
+        color: var(--secondary-color);
+        text-decoration: underline;
+        transition: .3s ease-in;
+    }
+    .product-card-area .card .card-body .ratting span{
+        font-size: var(--size-sm);
+        color: var(--secondary-color);
+    }
+   .product-card-area .card .card-body button{
+    background-color: var(--primary-color);
+    color: var(--color-white);
+   border: none;
+   font-size: var(--size-sm);
+   }
+   .product-card-area .card .card-body button:hover{
+    background-color: var(--secondary-color);
+    color: var(--color-white);
+   }
+   .list-group .list-group-item:hover {
+	background-color:var(--primary-color);
+	
+}
+/*card decoration*/
+
+.pagination-area .pagination .page-item .page-link{
+    color: var(--color-black);
+}
+.pagination-area .pagination .page-item .page-link:hover{
+    background-color: var(--secondary-color)!important;
+    color: var(--color-white);
+}
+.pagination-area .pagination .page-item .page-link.active{
+    background-color: var(--primary-color)!important;
+}
+.pagination-area .pagination .page-item .page-link.active:hover{
+    background-color: var(--secondary-color)!important;
+    color: var(--color-white);
+}
+/* Testimonial Start
+----------------------------*/
+.testimonial-area .card-item{
+    border: 1px solid var(--primary-color);
+    padding: 30px 20px;
+    margin-right:15px;
+    margin-left:15px;
+}
+
+/* .testimonial-area .card-item .photo{
+    
+
+} */
+.testimonial-area .card-item .photo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+}
+
+.testimonial-area .card-item .card-text p {
+    text-align: justify;
+}
+.testimonial-area .card-item .card-text p i{
+    font-size: 40px;
+    color: lightgray;
+}
+
+.slick-next::before{
+    color: var(--primary-color)!important;
+
+}
+.slick-prev::before{
+    color: var(--primary-color)!important;
+
+}
+
+
+/* Testimonial End
+----------------------------*/
+
+/*signin start*/
+
+
+.signIn-form{
+    width: 100%;
+    height: 100vh;
+    background-image: url(oo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.form-body{
+    width: 35%;
+    border: 1px solid lightgray;
+    padding: 30px 20px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    
+}
+.form-body a{
+    text-decoration: none;
+    color: rgb(101, 101, 101);
+}
+
+.form-body button{
+    width: 100%;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 8px 0px;
+}
+
+.form-body button:hover{
+    background-color: var(--primary-color);
+    
+}
+
+
+/*signin end*/
+
+
+/* Footer Start
+----------------------------*/
+.main-footer{
+    
+}
+footer{
+    background-color: var(--primary-color);
+}
+
+.main-footer h4{
+    color: var(--color-white);
+    padding-bottom: 15px;
+}
+.main-footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main-footer ul li{
+    line-height: 30px;
+    color: lightgray;
+}
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: lightgray;
+}
+.main-footer ul li a:hover{
+    padding-left: 8px;
+    transition: .6s;
+}
+
+/* Footer End
+----------------------------*/
